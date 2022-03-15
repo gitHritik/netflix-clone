@@ -1,13 +1,16 @@
 import "./App.css";
+import Banner from "./component/Banner";
+import Nav from "./component/Nav";
 import Row from "./component/Row";
 import requests from "./request";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* navbar */}
+      <Nav />
 
-      {/* Banner */}
+      <Banner />
 
       {/* Row components for movies  */}
       <Row
